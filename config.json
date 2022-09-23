@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Домашняя система",
+        "url": "http://127.0.0.1:5001/",
+        "directories_files": "files, files",
+        "prefix": "layout_"
+    }
+  ]
