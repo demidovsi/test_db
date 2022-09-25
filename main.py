@@ -37,6 +37,9 @@ if __name__ == '__main__':
             if num == '':
                 # окончание работы с программой
                 break
+            if 'h' in num:
+                show_list_test(list_files)  # вывод списка возможных тестов
+                continue
             try:
                 mas = []
                 if ',' in num:  # задан список номеров тестов (будем надеяться)
